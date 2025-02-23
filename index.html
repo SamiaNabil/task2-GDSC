@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics Preview</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- intro -->
+    <h1>Welcome To HTML Basics</h1>
+    <p>This Page Cover Essential HTML Concepts</p>
+    <hr>
+    <!-- img ex -->
+    <h2>Image Example</h2>
+    <img
+        src="data:image/jpeg;base64,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">
+    <p>above is an example of an image in HTML</p>
+    <!-- lists ex -->
+    <h2>Lists In HTML</h2>
+    <h3>Ordered List(steps to make tea)</h3>
+    <ol>
+        <li>boil water</li>
+        <li>add tea leaves or tea bag</li>
+        <li>pour into a cup</li>
+        <li>add sugar or milk (optional)</li>
+    </ol>
+    <h3>Unordered List (Favourite language)</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+
+    </ul>
+    <!-- table ex -->
+    <h2>Simple Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>country</th>
+
+            </tr>
+        </thead>
+        <tr>
+            <td>Ahmed</td>
+            <td>25</td>
+            <td>Egypt</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>22</td>
+            <td>jordon</td>
+        </tr>
+
+    </table>
+    <!-- form ex -->
+    <h2>Advanced Form Example</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Your Email">
+        <br>
+        <label>Password:</label>
+        <input type="password">
+        <br>
+        <label>Age:</label>
+        <input type="number">
+        <br>
+        <label>Date Of Birth:</label>
+        <input type="date">
+        <br>
+        <label>Preferred time:</label>
+        <input type="time">
+        <br>
+        <label>Meeting time:</label>
+        <input type="datetime-local">
+        <br>
+        <label>Color:</label>
+        <input type="color">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="fav_language" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+
+        <br>
+        <label>Hobbies:</label>
+        <input type="checkbox" id="Reading" name="h">
+        <label for="Reading">Reading</label>
+        <input type="checkbox" id="Sports" name="h">
+        <label for="Sports">Sports</label>
+        <input type="checkbox" id="Music" name="h">
+        <label for="Music">Music</label>
+        <br>
+    </form>
+    <label>Country:</label>
+    <select id="country" name="country" class="form-control">
+        <option value="Egypt">Egypt</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="UAE">UAE</option>
+        <option value="Other">Other</option>
+    </select>
+    <br>
+    <label>Upload Profile Picture:</label>
+    <input type="file">
+    <br>
+    <button><a href="#" style="color: black; text-decoration: none;">Submit</a></button>
+    <!-- multimedia ex -->
+    <h2>Multimedia</h2>
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="001.mp3" type="audio/mp3">
+    </audio>
+    <h3>Video</h3>
+    <video width="400" controls>
+        <source src="1 bootstrap 2021 tutorial -Downloaded by Fastytd.com.webm" type="video/webm">
+    </video>
+    <!-- links ex -->
+    <h2>Links</h2>
+    <p style="display: inline;">visit </p><a href="https://www.google.com/">google</a>
+    <!-- semantic ex -->
+    <h2>Semantic HTML Examples</h2>
+    <h3>My Blog</h3>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+
+    </ul>
+    <h2>Blog Post Title</h2>
+    <p>this is a simple blog post using HTML</p>
+    <P>2025 My Website</P>
+
+
+
+</body>
+
+</html>
